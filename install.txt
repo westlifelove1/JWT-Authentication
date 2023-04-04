@@ -1,0 +1,23 @@
+npm i init -y
+npm i express dotevn jsonwebtoken
+npm i --save-dev nodemon
+
+
+add file package.json
+
+ "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo Error && exit 1"
+  },
+  
+  
+ 
+
+npm run devStart 
+
+
+new terminal
+
+node
+require("crypto").randomBytes(64).toString("hex")
+
